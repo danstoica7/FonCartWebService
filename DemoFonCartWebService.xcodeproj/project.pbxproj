@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373813701D66FF9E00556A01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738136F1D66FF9E00556A01 /* AppDelegate.swift */; };
+		373813721D66FF9E00556A01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373813711D66FF9E00556A01 /* ViewController.swift */; };
+		373813751D66FF9E00556A01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373813731D66FF9E00556A01 /* Main.storyboard */; };
+		373813771D66FF9E00556A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373813761D66FF9E00556A01 /* Assets.xcassets */; };
+		3738137A1D66FF9E00556A01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373813781D66FF9E00556A01 /* LaunchScreen.storyboard */; };
+		373813851D66FF9E00556A01 /* DemoFonCartWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373813841D66FF9E00556A01 /* DemoFonCartWebServiceTests.swift */; };
+		373813901D66FF9E00556A01 /* DemoFonCartWebServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3738138F1D66FF9E00556A01 /* DemoFonCartWebServiceUITests.swift */; };
+		374C353F1D6930BA00170646 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374C353E1D6930BA00170646 /* Structures.swift */; };
+		374C35451D693E3D00170646 /* ObjectTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374C35441D693E3D00170646 /* ObjectTVCell.swift */; };
+		F80A0BFFD1BBC92640413EFC /* Pods_DemoFonCartWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF6AF7F5972E2443ED4B134 /* Pods_DemoFonCartWebService.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		373813811D66FF9E00556A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373813641D66FF9D00556A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3738136B1D66FF9D00556A01;
+			remoteInfo = DemoFonCartWebService;
+		};
+		3738138C1D66FF9E00556A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373813641D66FF9D00556A01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3738136B1D66FF9D00556A01;
+			remoteInfo = DemoFonCartWebService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3738136C1D66FF9E00556A01 /* DemoFonCartWebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFonCartWebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738136F1D66FF9E00556A01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		373813711D66FF9E00556A01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		373813741D66FF9E00556A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		373813761D66FF9E00556A01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		373813791D66FF9E00556A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3738137B1D66FF9E00556A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373813801D66FF9E00556A01 /* DemoFonCartWebServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoFonCartWebServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373813841D66FF9E00556A01 /* DemoFonCartWebServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFonCartWebServiceTests.swift; sourceTree = "<group>"; };
+		373813861D66FF9E00556A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3738138B1D66FF9E00556A01 /* DemoFonCartWebServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoFonCartWebServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738138F1D66FF9E00556A01 /* DemoFonCartWebServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFonCartWebServiceUITests.swift; sourceTree = "<group>"; };
+		373813911D66FF9E00556A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		374C353E1D6930BA00170646 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		374C35441D693E3D00170646 /* ObjectTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectTVCell.swift; sourceTree = "<group>"; };
+		C82D4C14A3A96A42F80161B7 /* Pods-DemoFonCartWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoFonCartWebService.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoFonCartWebService/Pods-DemoFonCartWebService.release.xcconfig"; sourceTree = "<group>"; };
+		EDF6AF7F5972E2443ED4B134 /* Pods_DemoFonCartWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoFonCartWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EFDC0ED784E9AB6955106E /* Pods-DemoFonCartWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoFonCartWebService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoFonCartWebService/Pods-DemoFonCartWebService.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373813691D66FF9D00556A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A0BFFD1BBC92640413EFC /* Pods_DemoFonCartWebService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738137D1D66FF9E00556A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373813881D66FF9E00556A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373813631D66FF9D00556A01 = {
+			isa = PBXGroup;
+			children = (
+				3738136E1D66FF9E00556A01 /* DemoFonCartWebService */,
+				373813831D66FF9E00556A01 /* DemoFonCartWebServiceTests */,
+				3738138E1D66FF9E00556A01 /* DemoFonCartWebServiceUITests */,
+				3738136D1D66FF9E00556A01 /* Products */,
+				94EF8B540CC8B68FDF684817 /* Pods */,
+				FEB84DA7C9598F93594C949D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3738136D1D66FF9E00556A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3738136C1D66FF9E00556A01 /* DemoFonCartWebService.app */,
+				373813801D66FF9E00556A01 /* DemoFonCartWebServiceTests.xctest */,
+				3738138B1D66FF9E00556A01 /* DemoFonCartWebServiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3738136E1D66FF9E00556A01 /* DemoFonCartWebService */ = {
+			isa = PBXGroup;
+			children = (
+				3738136F1D66FF9E00556A01 /* AppDelegate.swift */,
+				373813711D66FF9E00556A01 /* ViewController.swift */,
+				374C353E1D6930BA00170646 /* Structures.swift */,
+				374C35441D693E3D00170646 /* ObjectTVCell.swift */,
+				373813761D66FF9E00556A01 /* Assets.xcassets */,
+				373813731D66FF9E00556A01 /* Main.storyboard */,
+				373813781D66FF9E00556A01 /* LaunchScreen.storyboard */,
+				3738137B1D66FF9E00556A01 /* Info.plist */,
+			);
+			path = DemoFonCartWebService;
+			sourceTree = "<group>";
+		};
+		373813831D66FF9E00556A01 /* DemoFonCartWebServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				373813841D66FF9E00556A01 /* DemoFonCartWebServiceTests.swift */,
+				373813861D66FF9E00556A01 /* Info.plist */,
+			);
+			path = DemoFonCartWebServiceTests;
+			sourceTree = "<group>";
+		};
+		3738138E1D66FF9E00556A01 /* DemoFonCartWebServiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3738138F1D66FF9E00556A01 /* DemoFonCartWebServiceUITests.swift */,
+				373813911D66FF9E00556A01 /* Info.plist */,
+			);
+			path = DemoFonCartWebServiceUITests;
+			sourceTree = "<group>";
+		};
+		94EF8B540CC8B68FDF684817 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3EFDC0ED784E9AB6955106E /* Pods-DemoFonCartWebService.debug.xcconfig */,
+				C82D4C14A3A96A42F80161B7 /* Pods-DemoFonCartWebService.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEB84DA7C9598F93594C949D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDF6AF7F5972E2443ED4B134 /* Pods_DemoFonCartWebService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3738136B1D66FF9D00556A01 /* DemoFonCartWebService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373813941D66FF9E00556A01 /* Build configuration list for PBXNativeTarget "DemoFonCartWebService" */;
+			buildPhases = (
+				ABFA6798EA069E546D4D7430 /* [CP] Check Pods Manifest.lock */,
+				373813681D66FF9D00556A01 /* Sources */,
+				373813691D66FF9D00556A01 /* Frameworks */,
+				3738136A1D66FF9D00556A01 /* Resources */,
+				C258DA8B1A4BCFFC36090A9B /* [CP] Embed Pods Frameworks */,
+				463347B5E17879D641ABAC40 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoFonCartWebService;
+			productName = DemoFonCartWebService;
+			productReference = 3738136C1D66FF9E00556A01 /* DemoFonCartWebService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3738137F1D66FF9E00556A01 /* DemoFonCartWebServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373813971D66FF9E00556A01 /* Build configuration list for PBXNativeTarget "DemoFonCartWebServiceTests" */;
+			buildPhases = (
+				3738137C1D66FF9E00556A01 /* Sources */,
+				3738137D1D66FF9E00556A01 /* Frameworks */,
+				3738137E1D66FF9E00556A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373813821D66FF9E00556A01 /* PBXTargetDependency */,
+			);
+			name = DemoFonCartWebServiceTests;
+			productName = DemoFonCartWebServiceTests;
+			productReference = 373813801D66FF9E00556A01 /* DemoFonCartWebServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3738138A1D66FF9E00556A01 /* DemoFonCartWebServiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3738139A1D66FF9E00556A01 /* Build configuration list for PBXNativeTarget "DemoFonCartWebServiceUITests" */;
+			buildPhases = (
+				373813871D66FF9E00556A01 /* Sources */,
+				373813881D66FF9E00556A01 /* Frameworks */,
+				373813891D66FF9E00556A01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3738138D1D66FF9E00556A01 /* PBXTargetDependency */,
+			);
+			name = DemoFonCartWebServiceUITests;
+			productName = DemoFonCartWebServiceUITests;
+			productReference = 3738138B1D66FF9E00556A01 /* DemoFonCartWebServiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		373813641D66FF9D00556A01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = dolphin;
+				TargetAttributes = {
+					3738136B1D66FF9D00556A01 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					3738137F1D66FF9E00556A01 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 3738136B1D66FF9D00556A01;
+					};
+					3738138A1D66FF9E00556A01 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 3738136B1D66FF9D00556A01;
+					};
+				};
+			};
+			buildConfigurationList = 373813671D66FF9D00556A01 /* Build configuration list for PBXProject "DemoFonCartWebService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 373813631D66FF9D00556A01;
+			productRefGroup = 3738136D1D66FF9E00556A01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3738136B1D66FF9D00556A01 /* DemoFonCartWebService */,
+				3738137F1D66FF9E00556A01 /* DemoFonCartWebServiceTests */,
+				3738138A1D66FF9E00556A01 /* DemoFonCartWebServiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3738136A1D66FF9D00556A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738137A1D66FF9E00556A01 /* LaunchScreen.storyboard in Resources */,
+				373813771D66FF9E00556A01 /* Assets.xcassets in Resources */,
+				373813751D66FF9E00556A01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738137E1D66FF9E00556A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373813891D66FF9E00556A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		463347B5E17879D641ABAC40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoFonCartWebService/Pods-DemoFonCartWebService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABFA6798EA069E546D4D7430 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C258DA8B1A4BCFFC36090A9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoFonCartWebService/Pods-DemoFonCartWebService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373813681D66FF9D00556A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373813721D66FF9E00556A01 /* ViewController.swift in Sources */,
+				374C353F1D6930BA00170646 /* Structures.swift in Sources */,
+				374C35451D693E3D00170646 /* ObjectTVCell.swift in Sources */,
+				373813701D66FF9E00556A01 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738137C1D66FF9E00556A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373813851D66FF9E00556A01 /* DemoFonCartWebServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373813871D66FF9E00556A01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373813901D66FF9E00556A01 /* DemoFonCartWebServiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373813821D66FF9E00556A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3738136B1D66FF9D00556A01 /* DemoFonCartWebService */;
+			targetProxy = 373813811D66FF9E00556A01 /* PBXContainerItemProxy */;
+		};
+		3738138D1D66FF9E00556A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3738136B1D66FF9D00556A01 /* DemoFonCartWebService */;
+			targetProxy = 3738138C1D66FF9E00556A01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		373813731D66FF9E00556A01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373813741D66FF9E00556A01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		373813781D66FF9E00556A01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373813791D66FF9E00556A01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373813921D66FF9E00556A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		373813931D66FF9E00556A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		373813951D66FF9E00556A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3EFDC0ED784E9AB6955106E /* Pods-DemoFonCartWebService.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoFonCartWebService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dolphin.mobile.foncartwebservice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		373813961D66FF9E00556A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82D4C14A3A96A42F80161B7 /* Pods-DemoFonCartWebService.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoFonCartWebService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dolphin.mobile.foncartwebservice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		373813981D66FF9E00556A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoFonCartWebServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dolphin.mobile.DemoFonCartWebServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoFonCartWebService.app/DemoFonCartWebService";
+			};
+			name = Debug;
+		};
+		373813991D66FF9E00556A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoFonCartWebServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dolphin.mobile.DemoFonCartWebServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoFonCartWebService.app/DemoFonCartWebService";
+			};
+			name = Release;
+		};
+		3738139B1D66FF9E00556A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoFonCartWebServiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dolphin.mobile.DemoFonCartWebServiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DemoFonCartWebService;
+			};
+			name = Debug;
+		};
+		3738139C1D66FF9E00556A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoFonCartWebServiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dolphin.mobile.DemoFonCartWebServiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DemoFonCartWebService;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373813671D66FF9D00556A01 /* Build configuration list for PBXProject "DemoFonCartWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373813921D66FF9E00556A01 /* Debug */,
+				373813931D66FF9E00556A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373813941D66FF9E00556A01 /* Build configuration list for PBXNativeTarget "DemoFonCartWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373813951D66FF9E00556A01 /* Debug */,
+				373813961D66FF9E00556A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373813971D66FF9E00556A01 /* Build configuration list for PBXNativeTarget "DemoFonCartWebServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373813981D66FF9E00556A01 /* Debug */,
+				373813991D66FF9E00556A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3738139A1D66FF9E00556A01 /* Build configuration list for PBXNativeTarget "DemoFonCartWebServiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3738139B1D66FF9E00556A01 /* Debug */,
+				3738139C1D66FF9E00556A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 373813641D66FF9D00556A01 /* Project object */;
+}
